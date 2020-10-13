@@ -53,4 +53,6 @@ S=V;
 S(1)=[];
 DI=diff(I);
 DI1=DI/DI(length(V)-1);
+plot(S,DI1)
 % Since S and DI1 are in a same dimension, it's easy to plot the result fit of modified BTK theory.
+end
